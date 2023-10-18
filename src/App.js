@@ -1,9 +1,10 @@
 import './App.css';
+import First from './FirstComponent';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-primary'>Ciao</h1>
+    <div className="container">
+      <First />
     </div>
   );
 }

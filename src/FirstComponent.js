@@ -13,13 +13,15 @@ const FirstComponent = () => {
     return (
         <>
             <div className='row'>
+                <h1 className='mb-5'>Componente 1</h1>
                 <div className='col-12 text-center'>
-                    <h1>{titolo}</h1>
+                    <h2>{titolo}</h2>
                     <button className='btn btn-info shadow my-3' onClick={cambioTitolo}>
                         Clicca qui!
                     </button>
                 </div>
             </div>
+            <hr></hr>
         </>
     )
 }
